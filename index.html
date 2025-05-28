@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo: Conexão do Campo à Cidade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .timeline {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            padding: 10px;
+        }
+        .timeline-event {
+            background: #fff;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            position: relative;
+        }
+        .timeline-event::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            width: 15px;
+            height: 15px;
+            background: #4CAF50;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+        .timeline-event h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .timeline-event p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Linha do Tempo: Conexão do Campo à Cidade</h1>
+
+    <div class="timeline">
+        <div class="timeline-event">
+            <h3>Era Pré-Industrial</h3>
+            <p>As comunidades eram predominantemente rurais, com a agricultura como a principal atividade econômica.</p>
+        </div>
+
+        <div class="timeline-event">
+            <h3>Revolução Industrial (Século XVIII)</h3>
+            <p>O crescimento de fábricas atraiu população rural para as cidades em busca de trabalho.</p>
+        </div>
+
+        <div class="timeline-event">
+            <h3>Século XX</h3>
+            <p>A urbanização se intensificou, com o desenvolvimento de infraestrutura que conectava áreas rurais a urbanas.</p>
+        </div>
+
+        <div class="timeline-event">
+            <h3>Agroindústria</h3>
+            <p>Integração entre o campo e a cidade através da agroindústria, que traz produtos rurais para o mercado urbano.</p>
+        </div>
+
+        <div class="timeline-event">
+            <h3>Atualidade</h3>
+            <p>Movimentos em favor da sustentabilidade e do consumo local fortalecem a conexão entre campo e cidade.</p>
+        </div>
+    </div>
+
+</body>
+</html>
 
